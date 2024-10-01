@@ -20,7 +20,7 @@ body {
 .container {
     width: 420px;
     background: transparent;
-    border: 2px solid #9b9b9b;
+    border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 30px 40px;
@@ -60,5 +60,58 @@ h1 {
     right: 24px;
     top: 20%;
     margin-top: 5px;
+}
+
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input-container a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: #363b96;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #40448c;
+}
+
+.register-link p  {   
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+.register-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.register-link p a {   
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
 }
 
